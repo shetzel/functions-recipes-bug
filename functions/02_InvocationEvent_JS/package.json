@@ -1,0 +1,26 @@
+{
+  "name": "invocationevent-js-function",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "author": "salesforce.com",
+  "description": "Detects a payload type and returns information about it",
+  "license": "CC0-1.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git"
+  },
+  "engines": {
+    "node": "^16.0"
+  },
+  "scripts": {
+    "lint": "eslint . --ext .js --config .eslintrc",
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "eslint": "^8.24.0",
+    "mocha": "^10.0.0",
+    "sinon": "^14.0.0"
+  }
+}
